@@ -853,6 +853,125 @@ PNGファイル(透過無し)=PNGファイル(透過無し)
 ; ★右クリック：レイヤー編集ウィンドウ「タイムライン」＞オプション＞グリッド(BPM)の設定 ウィンドウ
 追加=追加(&A)
 
+; 外部スクリプトのオブジェクト追加メニュー
+; Basic_S (確認 v2.61): https://github.com/sigma-axis/aviutl2_script_Basic_S
+Basic_S=&Basic_S
+; ★右クリックメニュー内のメディアオブジェクト名表記
+;図形(&Z)
+別レイヤー@Basic_S=別レイヤー@Basic_S(&B)
+バッファ読み込み@Basic_S=バッファ読み込み@Basic_S(&Y)
+; ＞図形
+角丸矩形@Basic_S=角丸矩形@Basic_S(&K)
+楕円@Basic_S=楕円@Basic_S(&D)
+菱形@Basic_S=菱形@Basic_S(&H)
+スーパー楕円@Basic_S=スーパー楕円@Basic_S(&S)
+
+; ★右クリックメニュー内のフィルタ効果名表記
+;クリッピング(&G)
+;装飾(&S)
+;加工(&K)
+;色調整(&R)
+;配置(&P)
+;変形(&H)
+;ぼかし(&B)
+バッファをコピー@Basic_S=バッファをコピー@Basic_S(&Y)
+バッファをクリア@Basic_S=バッファをクリア@Basic_S(&C)
+; ＞クリッピング
+四隅丸め@Basic_S=四隅丸め@Basic_S(&Y)
+領域サイズ変更@Basic_S=領域サイズ変更@Basic_S(&R)
+領域割合サイズ変更@Basic_S=領域割合サイズ変更@Basic_S(&W)
+領域サイズ指定@Basic_S=領域サイズ指定@Basic_S(&S)
+カットずらし@Basic_S=カットずらし@Basic_S(&Z)
+中抜きクリッピング@Basic_S=中抜きクリッピング@Basic_S(&N)
+; ＞装飾
+背景角丸矩形@Basic_S=背景角丸矩形@Basic_S(&K)
+背景楕円@Basic_S=背景楕円@Basic_S(&D)
+背景菱形@Basic_S=背景菱形@Basic_S(&H)
+四角縁取り@Basic_S=四角縁取り@Basic_S(&S)
+内側シャドウ@Basic_S=内側シャドウ@Basic_S(&U)
+; ＞加工
+透明度適用@Basic_S=透明度適用@Basic_S(&T)
+透明度二値化@Basic_S=透明度二値化@Basic_S(&N)
+画像ファイル合成@Basic_S=画像ファイル合成@Basic_S(&G)
+動画ファイル合成@Basic_S=動画ファイル合成@Basic_S(&D)
+テキスト合成@Basic_S=テキスト合成@Basic_S(&X)
+画像バッファ合成@Basic_S=画像バッファ合成@Basic_S(&F)
+; ＞色調整
+色調補正@Basic_S=色調補正@Basic_S(&R)
+色チャンネル入れ替え@Basic_S=色チャンネル入れ替え@Basic_S(&I)
+色オーバーフロー修正@Basic_S=色オーバーフロー修正@Basic_S(&O)
+; ＞配置
+回転中心@Basic_S=回転中心@Basic_S(&K)
+回転中心アンカー指定@Basic_S=回転中心アンカー指定@Basic_S(&A)
+上下左右揃え@Basic_S=上下左右揃え@Basic_S(&S)
+直角回転@Basic_S=直角回転@Basic_S(&C)
+XYZ追加回転@Basic_S=XYZ追加回転@Basic_S(&X)
+任意軸追加回転@Basic_S=任意軸追加回転@Basic_S(&N)
+画像中間ループ@Basic_S=画像中間ループ@Basic_S(&T)
+別レイヤー同期@Basic_S=別レイヤー同期@Basic_S(&B)
+; ＞変形
+傾斜@Basic_S=傾斜@Basic_S(&K)
+XY軸変形@Basic_S=XY軸変形@Basic_S(&X)
+; ＞ぼかし
+小数ぼかし@Basic_S=小数ぼかし(&S)
+
+; ★移動方法メニュー内の移動モード名表記
+全体で時間制御@Basic_S=全体で時間制御@Basic_S(&Z)
+区間ごとに時間制御@Basic_S=区間ごとに時間制御@Basic_S(&C)
+全体で時間制御(回転)@Basic_S=全体で時間制御(回転)@Basic_S(&R)
+区間ごとに時間制御(回転)@Basic_S=区間ごとに時間制御(回転)@Basic_S(&J)
+基本緩急=基本緩急(&H)
+等速移動(秒)@Basic_S=等速移動(秒)@Basic_S(&S)
+等速移動(フレーム)@Basic_S=等速移動(フレーム)@Basic_S(&F)
+コマ落ち=コマ落ち(&O)
+;繰り返し(&L)
+特殊補間=特殊補間(&T)
+バウンス@Basic_S=バウンス@Basic_S(&U)
+バウンス(全体時間制御)@Basic_S=バウンス(全体時間制御)@Basic_S(&B)
+バック@Basic_S=バック@Basic_S(&A)
+バック(全体時間制御)@Basic_S=バック(全体時間制御)@Basic_S(&K)
+バネ振動@Basic_S=バネ振動@Basic_S(&N)
+バネ振動(全体時間制御)@Basic_S=バネ振動(全体時間制御)@Basic_S(&D)
+; ＞基本緩急
+正弦波@Basic_S=正弦波@Basic_S(&S)
+2次式@Basic_S=2次式@Basic_S(&2)
+3次式@Basic_S=3次式@Basic_S(&3)
+4次式@Basic_S=4次式@Basic_S(&4)
+N次式@Basic_S=N次式@Basic_S(&N)
+指数関数@Basic_S=指数関数@Basic_S(&I)
+円形@Basic_S=円形@Basic_S(&E)
+; ＞コマ落ち
+コマ落ち反復(秒)@Basic_S=コマ落ち反復(秒)@Basic_S(&S)
+コマ落ち反復(フレーム)@Basic_S=コマ落ち反復(フレーム)@Basic_S(&F)
+コマ落ち反復(Hz)@Basic_S=コマ落ち反復(Hz)@Basic_S(&H)
+コマ落ち反復(BPM)@Basic_S=コマ落ち反復(BPM)@Basic_S(&B)
+コマ落ち反復(BPMグリッド)@Basic_S=コマ落ち反復(BPMグリッド)@Basic_S(&G)
+コマ落ち反復(回数)@Basic_S=コマ落ち反復(回数)@Basic_S(&K)
+コマ落ちランダム(秒)@Basic_S=コマ落ちランダム(秒)@Basic_S(&Q)
+コマ落ちランダム(フレーム)@Basic_S=コマ落ちランダム(フレーム)@Basic_S(&W)
+コマ落ちランダム(Hz)@Basic_S=コマ落ちランダム(Hz)@Basic_S(&E)
+コマ落ちランダム(BPM)@Basic_S=コマ落ちランダム(BPM)@Basic_S(&R)
+コマ落ちランダム(BPMグリッド)@Basic_S=コマ落ちランダム(BPMグリッド)@Basic_S(&T)
+コマ落ちランダム(回数)@Basic_S=コマ落ちランダム(回数)@Basic_S(&Y)
+; 繰返し
+時間制御繰り返し(秒)@Basic_S=時間制御繰り返し(秒)@Basic_S(&S)
+時間制御繰り返し(フレーム)@Basic_S=時間制御繰り返し(フレーム)@Basic_S(&F)
+時間制御繰り返し(Hz)@Basic_S=時間制御繰り返し(Hz)@Basic_S(&H)
+時間制御繰り返し(BPM)@Basic_S=時間制御繰り返し(BPM)@Basic_S(&B)
+時間制御繰り返し(BPMグリッド)@Basic_S=時間制御繰り返し(BPMグリッド)@Basic_S(&G)
+時間制御繰り返し(回数)@Basic_S=時間制御繰り返し(回数)@Basic_S(&K)
+時間制御繰り返し往復(秒)@Basic_S=時間制御繰り返し往復(秒)@Basic_S(&Q)
+時間制御繰り返し往復(フレーム)@Basic_S=時間制御繰り返し往復(フレーム)@Basic_S(&W)
+時間制御繰り返し往復(Hz)@Basic_S=時間制御繰り返し往復(Hz)@Basic_S(&E)
+時間制御繰り返し往復(BPM)@Basic_S=時間制御繰り返し往復(BPM)@Basic_S(&R)
+時間制御繰り返し往復(BPMグリッド)@Basic_S=時間制御繰り返し往復(BPMグリッド)@Basic_S(&T)
+時間制御繰り返し往復(回数)@Basic_S=時間制御繰り返し往復(回数)@Basic_S(&Y)
+; 特殊補間
+対数補間@Basic_S=対数補間@Basic_S(&T)
+対数補間(全体時間制御)@Basic_S=対数補間(全体時間制御)@Basic_S(&Z)
+逆数補間@Basic_S=逆数補間@Basic_S(&G)
+逆数補間(全体時間制御)@Basic_S=逆数補間(全体時間制御)@Basic_S(&Y)
+
 [Dialog]
 ; ダイアログ内の名称
 このプラグイン・スクリプトを信頼して使用する=このプラグイン・スクリプトを信頼して使用する(&Y)
