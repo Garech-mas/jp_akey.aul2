@@ -1,9 +1,14 @@
 # AviUtl2 アクセスキー付き日本語リソース
 AviUtl2の各メニュー・一部ボタン項目にアクセスキーを追加する言語ファイル(`.aul2`)です。
 
-AviUtl ExEdit2 v2.1.3 までの項目に対応しています。
+AviUtl ExEdit2 v2.1.5 までの項目に対応しています。
 
 ## ダウンロード・インストール
+### [AviUtl2 カタログ](https://github.com/Neosku/aviutl2-catalog/releases/latest) を使った方法
+[![AviUtl2 Catalog](https://aviutl2-catalog-badge.sevenc7c.workers.dev/badge/v/Garech.jp_akey.aul2)](https://aviutl2-catalog-badge.sevenc7c.workers.dev/package/Garech.jp_akey.aul2) ←こちらのボタンから、AviUtl2 カタログでの当プラグイン紹介ページを開けます。  
+画面右下辺りのインストールボタンからダウンロード・インストールできます。
+
+### 手動での導入方法
 https://raw.githubusercontent.com/Garech-mas/jp_akey.aul2/refs/heads/main/日本語(アクセスキー付き).aul2
 
 上記のリンクを右クリックし、**名前を付けてリンク先を保存**から`日本語(アクセスキー付き).aul2` をダウンロードできます。
@@ -13,7 +18,7 @@ AviUtl2を起動し、ダウンロードしたファイルをプレビュー画�
 自動で適用されない場合、メニューバー 設定 > 言語の設定 から、`日本語(アクセスキー付き)`を選択して適用してください。
 
 ## 導入・更新時の注意点
-リリース時最新版（v2.1.3）では、言語ファイルを更新・変更すると**ショートカットキーの設定が失われることがあります。**
+リリース時最新版（v2.1.5）では、言語ファイルを更新・変更すると**ショートカットキーの設定が失われることがあります。**
 
 ショートカットキーの設定を変更している方は、導入・更新後に再設定してください。
 
